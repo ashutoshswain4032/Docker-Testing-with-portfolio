@@ -1,0 +1,52 @@
+19:44:07.178 INFO  --- [main] c.p.DockerTestiingOnPortFolioApplication: Starting DockerTestiingOnPortFolioApplication using Java 19.0.2 with PID 4524 (D:\Pankaj Sir SpringBoot\Docker-Testiing-on-PortFolio\target\classes started by ASHUTOSH in D:\Pankaj Sir SpringBoot\Docker-Testiing-on-PortFolio) 
+19:44:07.181 INFO  --- [main] c.p.DockerTestiingOnPortFolioApplication: No active profile set, falling back to 1 default profile: "default" 
+19:44:08.327 INFO  --- [main] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 8080 (http) 
+19:44:08.350 INFO  --- [main] o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"] 
+19:44:08.352 INFO  --- [main] o.a.catalina.core.StandardService: Starting service [Tomcat] 
+19:44:08.362 INFO  --- [main] o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.19] 
+19:44:08.430 INFO  --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext 
+19:44:08.432 INFO  --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1180 ms 
+19:44:08.535 INFO  --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping: Adding welcome page template: index 
+19:44:08.828 INFO  --- [main] o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"] 
+19:44:08.854 INFO  --- [main] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 8080 (http) with context path '' 
+19:44:08.868 INFO  --- [main] c.p.DockerTestiingOnPortFolioApplication: Started DockerTestiingOnPortFolioApplication in 2.094 seconds (process running for 2.709) 
+19:44:46.473 INFO  --- [main] c.p.DockerTestiingOnPortFolioApplication: Starting DockerTestiingOnPortFolioApplication using Java 19.0.2 with PID 9148 (D:\Pankaj Sir SpringBoot\Docker-Testiing-on-PortFolio\target\classes started by ASHUTOSH in D:\Pankaj Sir SpringBoot\Docker-Testiing-on-PortFolio) 
+19:44:46.476 INFO  --- [main] c.p.DockerTestiingOnPortFolioApplication: No active profile set, falling back to 1 default profile: "default" 
+19:44:47.770 INFO  --- [main] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 8080 (http) 
+19:44:47.801 INFO  --- [main] o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"] 
+19:44:47.804 INFO  --- [main] o.a.catalina.core.StandardService: Starting service [Tomcat] 
+19:44:47.805 INFO  --- [main] o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.19] 
+19:44:47.885 INFO  --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext 
+19:44:47.886 INFO  --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1347 ms 
+19:44:48.095 INFO  --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping: Adding welcome page template: index 
+19:44:48.397 INFO  --- [main] o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"] 
+19:44:48.409 WARN  --- [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop' 
+19:44:48.432 INFO  --- [main] o.s.b.a.l.ConditionEvaluationReportLogger: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+19:44:48.451 ERROR --- [main] o.s.b.d.LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+ 
+19:45:15.290 INFO  --- [main] c.p.DockerTestiingOnPortFolioApplication: Starting DockerTestiingOnPortFolioApplication using Java 19.0.2 with PID 12652 (D:\Pankaj Sir SpringBoot\Docker-Testiing-on-PortFolio\target\classes started by ASHUTOSH in D:\Pankaj Sir SpringBoot\Docker-Testiing-on-PortFolio) 
+19:45:15.297 INFO  --- [main] c.p.DockerTestiingOnPortFolioApplication: No active profile set, falling back to 1 default profile: "default" 
+19:45:16.758 INFO  --- [main] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 8080 (http) 
+19:45:16.788 INFO  --- [main] o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"] 
+19:45:16.792 INFO  --- [main] o.a.catalina.core.StandardService: Starting service [Tomcat] 
+19:45:16.793 INFO  --- [main] o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.19] 
+19:45:16.907 INFO  --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext 
+19:45:16.910 INFO  --- [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1514 ms 
+19:45:17.106 INFO  --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping: Adding welcome page template: index 
+19:45:17.388 INFO  --- [main] o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"] 
+19:45:17.412 INFO  --- [main] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 8080 (http) with context path '' 
+19:45:17.422 INFO  --- [main] c.p.DockerTestiingOnPortFolioApplication: Started DockerTestiingOnPortFolioApplication in 2.549 seconds (process running for 3.133) 
